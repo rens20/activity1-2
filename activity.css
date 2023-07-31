@@ -1,0 +1,78 @@
+.grid-container{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+.grid-item .login-box h2{
+    color: #fff;
+}
+.grid-item .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(24, 20, 20, 0.987);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .grid-item .login-box .user-box {
+    position: relative;
+  }
+  
+  .grid-item .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .grid-item .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  .login-box button{
+    width: 4rem;
+    height: 45px;
+    color: rgb(248, 249, 253);
+    background: rgb(36, 54, 221) ;
+  margin: 10px;
+  border-radius: 1.5rem;
+  border: rgb(36, 54, 221) ;
+  }
